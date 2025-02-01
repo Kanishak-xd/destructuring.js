@@ -30,17 +30,20 @@
 
 
 // Skipping Array Values
-    // Create an Array
-    const friends = ["Kelzang", "Abhilaksh", "Dolith", "Devansh", "Sarabnoor"];
+    // // Create an Array
+    // const friends = ["Kelzang", "Abhilaksh", "Dolith", "Devansh", "Sarabnoor"];
 
-    // Destructuring
-    let [ , fren1, , fren2, ] = friends;
-    console.log(fren1 + " & " + fren2 + " are my friends.");
-
+    // // Destructuring
+    // let [ , fren1, , fren2, ] = friends;
+    // console.log(fren1 + " & " + fren2 + " are my friends.");
 
 
 // Array Position Values
-
+    // Create an Array
+    const cities = ["Mandi", "Hamirpur", "Jahu", "Ghumarwin"];
+    // Destructuring
+    let {[0]:city1 ,[1]:city2} = cities;
+    console.log(`I was born in ${city1} & was raised in ${city2}.`);
 
 
 // The Rest Property

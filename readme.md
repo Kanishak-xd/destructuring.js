@@ -53,7 +53,18 @@ We can skip array values using two or more commas:
     console.log(fren1 + " & " + fren2 + " are my friends.")
 ```
 
+
 ## Array Position Values
+We can pick up values from specific index locations of an array:
+```
+    // Create an Array
+    const cities = ["Mandi", "Hamirpur", "Jahu", "Ghumarwin"];
+    // Destructuring
+    let {[0]:city1 ,[1]:city2} = cities;
+    console.log(`I was born in ${city1} & was raised in ${city2}.`);
+```
+
+
 ## The Rest Property
 ## Destructuring Maps
 ## Swapping JavaScript Variables
