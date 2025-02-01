@@ -1,5 +1,5 @@
 // Object Destructuring
-    // Create Object
+    // // Create Object
     // const person = {
     //     firstName: "Kanishak",
     //     lastName: "Sharma",
@@ -12,7 +12,12 @@
 
 
 // String Destructuring
+    // Create a String
+    let item = "GOD";
 
+    // Destructuring
+    let [a1, a2, a3] = item;
+    console.log(a3 + a2 + a1);
 
 
 // Array Destructuring
