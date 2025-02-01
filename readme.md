@@ -66,5 +66,17 @@ We can pick up values from specific index locations of an array:
 
 
 ## The Rest Property
+You can end a destructuring syntax with a rest property.
+This syntax will store all remaining values into a new array:
+```
+    // Create an Array
+    const numbers = [10, 20, 30, 40, 50, 60, 70];
+
+    // Destructuring
+    const [a,b, ...rest] = numbers
+    console.log(`I was ${10} years old when my brother was ${20} & gramps was ${70}.`);
+```
+
+
 ## Destructuring Maps
 ## Swapping JavaScript Variables
