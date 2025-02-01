@@ -43,6 +43,16 @@ Make an array, wrap it in a variable, then use its properties using destructurin
 
 
 ## Skipping Array Values
+We can skip array values using two or more commas:
+```
+    // Create an Array
+    const friends = ["Kelzang", "Abhilaksh", "Dolith", "Devansh", "Sarabnoor"];
+
+    // Destructuring
+    let [ , fren1, , fren2, ] = friends;
+    console.log(fren1 + " & " + fren2 + " are my friends.")
+```
+
 ## Array Position Values
 ## The Rest Property
 ## Destructuring Maps
