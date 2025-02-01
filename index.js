@@ -47,18 +47,18 @@
 
 
 // The Rest Property
-    // Create an Array
-    const numbers = [10, 20, 30, 40, 50, 60, 70];
+    // // Create an Array
+    // const numbers = [10, 20, 30, 40, 50, 60, 70];
 
-    // Destructuring
-    const [a,b, ...rest] = numbers
-    console.log(`I was ${10} years old when my brother was ${20} & gramps was ${70}.`);
-
-
-// Destructuring Maps
-
+    // // Destructuring
+    // const [a,b, ...rest] = numbers
+    // console.log(`I was ${10} years old when my brother was ${20} & gramps was ${70}.`);
 
 
 // Swapping JavaScript Variables
+    let firstName = "Kanishak";
+    let lastName = "Sharma";
 
-
+    // Destructing
+    [firstName, lastName] = [lastName, firstName];
+    console.log(`Now, my first name is ${firstName} & second name is ${lastName}.`);

@@ -78,5 +78,13 @@ This syntax will store all remaining values into a new array:
 ```
 
 
-## Destructuring Maps
 ## Swapping JavaScript Variables
+You can swap the values of two variables using a destructuring assignment:
+```
+    let firstName = "Kanishak";
+    let lastName = "Sharma";
+
+    // Destructing
+    [firstName, lastName] = [lastName, firstName];
+    console.log(`Now, my first name is ${firstName} & second name is ${lastName}.`);
+```
