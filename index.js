@@ -12,16 +12,21 @@
 
 
 // String Destructuring
-    // Create a String
-    let item = "GOD";
+    // // Create a String
+    // let item = "GOD";
 
-    // Destructuring
-    let [a1, a2, a3] = item;
-    console.log(a3 + a2 + a1);
+    // // Destructuring
+    // let [a1, a2, a3] = item;
+    // console.log(a3 + a2 + a1);
 
 
 // Array Destructuring
+    // Create an Array
+    const friends = ["Kelzang", "Abhilaksh", "Dolith"];
 
+    // Destructuring
+    let [fren1, fren2, fren3] = friends;
+    console.log(fren1 + ", " + fren2 + " & " + fren3 + " are my friends.")
 
 
 // Skipping Array Values
