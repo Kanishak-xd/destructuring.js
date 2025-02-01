@@ -56,9 +56,9 @@
 
 
 // Swapping JavaScript Variables
-    let firstName = "Kanishak";
-    let lastName = "Sharma";
+    // let firstName = "Kanishak";
+    // let lastName = "Sharma";
 
-    // Destructing
-    [firstName, lastName] = [lastName, firstName];
-    console.log(`Now, my first name is ${firstName} & second name is ${lastName}.`);
+    // // Destructing
+    // [firstName, lastName] = [lastName, firstName];
+    // console.log(`Now, my first name is ${firstName} & second name is ${lastName}.`);
